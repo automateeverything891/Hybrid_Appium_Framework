@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="END TO END TESTING !!!!">
+	<test thread-count="5"
+		name="VALIDATE THE LAUNCHING TEXT AND SPLASH SCREEN">
+		<classes>
+			<class
+				name="com.practice.TC_FCA_1_Validate_Launching_Splash_Screen" />
+		</classes>
+	</test>  <!-- Search Listing Page- com.booking -->
+
+	<test thread-count="5" name="VALIDATE THE DASHBOARD ATTRIBUTES VALUES">
+		<classes>
+			<class
+				name="com.practice.TC_FCA_3_Validate_Dashboard_Attributes_values" />
+		</classes>
+	</test>  <!-- Search Listing Page- com.booking -->
+	
+	<test thread-count="5"
+		name="VALIDATE THE FLASH SCREEN TEXT AND IMAGES ">
+		<classes>
+			<class name="com.practice.TC_FCA_2_Validate_FlashScreen_Text_and_Image" />
+		</classes>
+	</test>
+	<test thread-count="5" name="VALIDATE SEARCH LIST AND PRODUCT TO CART PAGE">
+		<classes>
+			<class
+				name="com.practice.TC_FCA_4_Validate_Search_List_Add_Product_to_Cart" />
+		</classes>
+	</test>
+	<test thread-count="5" name="VALIDATE INDIVIDUAL PRODUCT PAGE">
+		<classes>
+			<class
+				name="com.practice.TC_FCA_5_Validate_Individual_Product_Page" />
+		</classes>
+	</test> <!-- Search Listing Page- com.booking -->
+	<test thread-count="5" name="VALIDATE THE CREATE SUBSCRIPTION PAGE">
+		<classes>
+			<class
+				name="com.practice.TC_FCA_6_Validate_Create_Subscription_Page" />
+		</classes>
+	</test> <!-- Search Listing Page- com.booking -->
+	<test thread-count="5" name="VALIDATE THE CART PAGE">
+		<classes>
+			<class
+				name="com.practice.TC_FCA_7_Validate_CART_Page" />
+		</classes>
+	</test> <!-- Search Listing Page- com.booking -->
+</suite> <!-- Regression Testing- com.booking.startup.HomeActivity -->

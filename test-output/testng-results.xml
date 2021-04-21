@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="7" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="END TO END TESTING !!!!" duration-ms="3205485" started-at="2021-04-19T04:23:19Z" finished-at="2021-04-19T05:16:44Z">
+    <groups>
+    </groups>
+    <test name="VALIDATE THE LAUNCHING TEXT AND SPLASH SCREEN" duration-ms="141877" started-at="2021-04-19T04:23:19Z" finished-at="2021-04-19T04:25:41Z">
+      <class name="com.practice.TC_FCA_1_Validate_Launching_Splash_Screen">
+        <test-method status="PASS" signature="lunchingApp()[pri:0, instance:com.practice.TC_FCA_1_Validate_Launching_Splash_Screen@329dbdbf]" name="lunchingApp" is-config="true" duration-ms="77208" started-at="2021-04-19T09:53:19Z" finished-at="2021-04-19T09:54:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchingApp -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.practice.TC_FCA_1_Validate_Launching_Splash_Screen@329dbdbf]" name="beforeMethod" is-config="true" duration-ms="5" started-at="2021-04-19T09:54:36Z" finished-at="2021-04-19T09:54:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.practice.TC_FCA_1_Validate_Launching_Splash_Screen.tC_FCA_1_Validate_Launching_Splash_Screen() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="tC_FCA_1_Validate_Launching_Splash_Screen()[pri:0, instance:com.practice.TC_FCA_1_Validate_Launching_Splash_Screen@329dbdbf]" name="tC_FCA_1_Validate_Launching_Splash_Screen" duration-ms="60442" started-at="2021-04-19T09:54:36Z" finished-at="2021-04-19T09:55:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tC_FCA_1_Validate_Launching_Splash_Screen -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.practice.TC_FCA_1_Validate_Launching_Splash_Screen@329dbdbf]" name="afterMethod" is-config="true" duration-ms="4157" started-at="2021-04-19T09:55:37Z" finished-at="2021-04-19T09:55:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tC_FCA_1_Validate_Launching_Splash_Screen status=SUCCESS method=TC_FCA_1_Validate_Launching_Splash_Screen.tC_FCA_1_Validate_Launching_Splash_Screen()[pri:0, instance:com.practice.TC_FCA_1_Validate_Launching_Splash_Screen@329dbdbf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.practice.TC_FCA_1_Validate_Launching_Splash_Screen -->
+    </test> <!-- VALIDATE THE LAUNCHING TEXT AND SPLASH SCREEN -->
+    <test name="VALIDATE THE DASHBOARD ATTRIBUTES VALUES" duration-ms="735861" started-at="2021-04-19T04:25:41Z" finished-at="2021-04-19T04:37:57Z">
+      <class name="com.practice.TC_FCA_3_Validate_Dashboard_Attributes_values">
+        <test-method status="PASS" signature="lunchingApp()[pri:0, instance:com.practice.TC_FCA_3_Validate_Dashboard_Attributes_values@4f704591]" name="lunchingApp" is-config="true" duration-ms="50907" started-at="2021-04-19T09:55:41Z" finished-at="2021-04-19T09:56:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchingApp -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.practice.TC_FCA_3_Validate_Dashboard_Attributes_values@4f704591]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-04-19T09:56:32Z" finished-at="2021-04-19T09:56:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.practice.TC_FCA_3_Validate_Dashboard_Attributes_values.tC_FCA_3_Validate_Dashboard_Attributes_values() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="tC_FCA_3_Validate_Dashboard_Attributes_values()[pri:0, instance:com.practice.TC_FCA_3_Validate_Dashboard_Attributes_values@4f704591]" name="tC_FCA_3_Validate_Dashboard_Attributes_values" duration-ms="679570" started-at="2021-04-19T09:56:32Z" finished-at="2021-04-19T10:07:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tC_FCA_3_Validate_Dashboard_Attributes_values -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.practice.TC_FCA_3_Validate_Dashboard_Attributes_values@4f704591]" name="afterMethod" is-config="true" duration-ms="5374" started-at="2021-04-19T10:07:52Z" finished-at="2021-04-19T10:07:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tC_FCA_3_Validate_Dashboard_Attributes_values status=SUCCESS method=TC_FCA_3_Validate_Dashboard_Attributes_values.tC_FCA_3_Validate_Dashboard_Attributes_values()[pri:0, instance:com.practice.TC_FCA_3_Validate_Dashboard_Attributes_values@4f704591] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.practice.TC_FCA_3_Validate_Dashboard_Attributes_values -->
+    </test> <!-- VALIDATE THE DASHBOARD ATTRIBUTES VALUES -->
+    <test name="VALIDATE THE FLASH SCREEN TEXT AND IMAGES " duration-ms="169477" started-at="2021-04-19T04:37:57Z" finished-at="2021-04-19T04:40:47Z">
+      <class name="com.practice.TC_FCA_2_Validate_FlashScreen_Text_and_Image">
+        <test-method status="PASS" signature="lunchingApp()[pri:0, instance:com.practice.TC_FCA_2_Validate_FlashScreen_Text_and_Image@518caac3]" name="lunchingApp" is-config="true" duration-ms="45753" started-at="2021-04-19T10:07:57Z" finished-at="2021-04-19T10:08:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchingApp -->
+        <test-method status="PASS" signature="tC_FCA_2_Validate_FlashScreen_Text_and_Image()[pri:0, instance:com.practice.TC_FCA_2_Validate_FlashScreen_Text_and_Image@518caac3]" name="tC_FCA_2_Validate_FlashScreen_Text_and_Image" duration-ms="119817" started-at="2021-04-19T10:08:43Z" finished-at="2021-04-19T10:10:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tC_FCA_2_Validate_FlashScreen_Text_and_Image -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.practice.TC_FCA_2_Validate_FlashScreen_Text_and_Image@518caac3]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-04-19T10:08:43Z" finished-at="2021-04-19T10:08:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.practice.TC_FCA_2_Validate_FlashScreen_Text_and_Image.tC_FCA_2_Validate_FlashScreen_Text_and_Image() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.practice.TC_FCA_2_Validate_FlashScreen_Text_and_Image@518caac3]" name="afterMethod" is-config="true" duration-ms="3899" started-at="2021-04-19T10:10:43Z" finished-at="2021-04-19T10:10:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tC_FCA_2_Validate_FlashScreen_Text_and_Image status=SUCCESS method=TC_FCA_2_Validate_FlashScreen_Text_and_Image.tC_FCA_2_Validate_FlashScreen_Text_and_Image()[pri:0, instance:com.practice.TC_FCA_2_Validate_FlashScreen_Text_and_Image@518caac3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.practice.TC_FCA_2_Validate_FlashScreen_Text_and_Image -->
+    </test> <!-- VALIDATE THE FLASH SCREEN TEXT AND IMAGES  -->
+    <test name="VALIDATE SEARCH LIST AND PRODUCT TO CART PAGE" duration-ms="301902" started-at="2021-04-19T04:40:47Z" finished-at="2021-04-19T04:45:49Z">
+      <class name="com.practice.TC_FCA_4_Validate_Search_List_Add_Product_to_Cart">
+        <test-method status="PASS" signature="lunchingApp()[pri:0, instance:com.practice.TC_FCA_4_Validate_Search_List_Add_Product_to_Cart@61eaec38]" name="lunchingApp" is-config="true" duration-ms="43046" started-at="2021-04-19T10:10:47Z" finished-at="2021-04-19T10:11:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchingApp -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.practice.TC_FCA_4_Validate_Search_List_Add_Product_to_Cart@61eaec38]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-04-19T10:11:30Z" finished-at="2021-04-19T10:11:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.practice.TC_FCA_4_Validate_Search_List_Add_Product_to_Cart.tC_FCA_4_Validate_Search_List_Add_Product_to_Cart() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="tC_FCA_4_Validate_Search_List_Add_Product_to_Cart()[pri:0, instance:com.practice.TC_FCA_4_Validate_Search_List_Add_Product_to_Cart@61eaec38]" name="tC_FCA_4_Validate_Search_List_Add_Product_to_Cart" duration-ms="256271" started-at="2021-04-19T10:11:30Z" finished-at="2021-04-19T10:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tC_FCA_4_Validate_Search_List_Add_Product_to_Cart -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.practice.TC_FCA_4_Validate_Search_List_Add_Product_to_Cart@61eaec38]" name="afterMethod" is-config="true" duration-ms="2579" started-at="2021-04-19T10:15:46Z" finished-at="2021-04-19T10:15:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tC_FCA_4_Validate_Search_List_Add_Product_to_Cart status=SUCCESS method=TC_FCA_4_Validate_Search_List_Add_Product_to_Cart.tC_FCA_4_Validate_Search_List_Add_Product_to_Cart()[pri:0, instance:com.practice.TC_FCA_4_Validate_Search_List_Add_Product_to_Cart@61eaec38] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.practice.TC_FCA_4_Validate_Search_List_Add_Product_to_Cart -->
+    </test> <!-- VALIDATE SEARCH LIST AND PRODUCT TO CART PAGE -->
+    <test name="VALIDATE INDIVIDUAL PRODUCT PAGE" duration-ms="337007" started-at="2021-04-19T04:45:49Z" finished-at="2021-04-19T04:51:26Z">
+      <class name="com.practice.TC_FCA_5_Validate_Individual_Product_Page">
+        <test-method status="PASS" signature="lunchingApp()[pri:0, instance:com.practice.TC_FCA_5_Validate_Individual_Product_Page@7d3d101b]" name="lunchingApp" is-config="true" duration-ms="43889" started-at="2021-04-19T10:15:49Z" finished-at="2021-04-19T10:16:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchingApp -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.practice.TC_FCA_5_Validate_Individual_Product_Page@7d3d101b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-04-19T10:16:33Z" finished-at="2021-04-19T10:16:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.practice.TC_FCA_5_Validate_Individual_Product_Page.tC_FCA_5_Validate_Individual_Product_Page() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="tC_FCA_5_Validate_Individual_Product_Page()[pri:0, instance:com.practice.TC_FCA_5_Validate_Individual_Product_Page@7d3d101b]" name="tC_FCA_5_Validate_Individual_Product_Page" duration-ms="290566" started-at="2021-04-19T10:16:33Z" finished-at="2021-04-19T10:21:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tC_FCA_5_Validate_Individual_Product_Page -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.practice.TC_FCA_5_Validate_Individual_Product_Page@7d3d101b]" name="afterMethod" is-config="true" duration-ms="2549" started-at="2021-04-19T10:21:23Z" finished-at="2021-04-19T10:21:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tC_FCA_5_Validate_Individual_Product_Page status=SUCCESS method=TC_FCA_5_Validate_Individual_Product_Page.tC_FCA_5_Validate_Individual_Product_Page()[pri:0, instance:com.practice.TC_FCA_5_Validate_Individual_Product_Page@7d3d101b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.practice.TC_FCA_5_Validate_Individual_Product_Page -->
+    </test> <!-- VALIDATE INDIVIDUAL PRODUCT PAGE -->
+    <test name="VALIDATE THE CREATE SUBSCRIPTION PAGE" duration-ms="1080104" started-at="2021-04-19T04:51:26Z" finished-at="2021-04-19T05:09:26Z">
+      <class name="com.practice.TC_FCA_6_Validate_Create_Subscription_Page">
+        <test-method status="PASS" signature="lunchingApp()[pri:0, instance:com.practice.TC_FCA_6_Validate_Create_Subscription_Page@f99f5e0]" name="lunchingApp" is-config="true" duration-ms="45727" started-at="2021-04-19T10:21:26Z" finished-at="2021-04-19T10:22:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchingApp -->
+        <test-method status="FAIL" signature="tC_FCA_6_Validate_Create_Subscription_Page()[pri:0, instance:com.practice.TC_FCA_6_Validate_Create_Subscription_Page@f99f5e0]" name="tC_FCA_6_Validate_Create_Subscription_Page" duration-ms="1028416" started-at="2021-04-19T10:22:12Z" finished-at="2021-04-19T10:39:20Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at com.utils.Keywords.waitForElementPresent(Keywords.java:763)
+	at com.utils.Keywords.executeKeywords(Keywords.java:209)
+	at com.practice.TC_FCA_6_Validate_Create_Subscription_Page.tC_FCA_6_Validate_Create_Subscription_Page(TC_FCA_6_Validate_Create_Subscription_Page.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tC_FCA_6_Validate_Create_Subscription_Page -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.practice.TC_FCA_6_Validate_Create_Subscription_Page@f99f5e0]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-04-19T10:22:12Z" finished-at="2021-04-19T10:22:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.practice.TC_FCA_6_Validate_Create_Subscription_Page.tC_FCA_6_Validate_Create_Subscription_Page() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.practice.TC_FCA_6_Validate_Create_Subscription_Page@f99f5e0]" name="afterMethod" is-config="true" duration-ms="5916" started-at="2021-04-19T10:39:20Z" finished-at="2021-04-19T10:39:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tC_FCA_6_Validate_Create_Subscription_Page status=FAILURE method=TC_FCA_6_Validate_Create_Subscription_Page.tC_FCA_6_Validate_Create_Subscription_Page()[pri:0, instance:com.practice.TC_FCA_6_Validate_Create_Subscription_Page@f99f5e0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.practice.TC_FCA_6_Validate_Create_Subscription_Page -->
+    </test> <!-- VALIDATE THE CREATE SUBSCRIPTION PAGE -->
+    <test name="VALIDATE THE CART PAGE" duration-ms="438194" started-at="2021-04-19T05:09:26Z" finished-at="2021-04-19T05:16:44Z">
+      <class name="com.practice.TC_FCA_7_Validate_CART_Page">
+        <test-method status="PASS" signature="startAppium()[pri:0, instance:com.practice.TC_FCA_7_Validate_CART_Page@5e3d57c7]" name="startAppium" is-config="true" duration-ms="44738" started-at="2021-04-19T09:52:34Z" finished-at="2021-04-19T09:53:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startAppium -->
+        <test-method status="PASS" signature="lunchingApp()[pri:0, instance:com.practice.TC_FCA_7_Validate_CART_Page@5e3d57c7]" name="lunchingApp" is-config="true" duration-ms="50502" started-at="2021-04-19T10:39:26Z" finished-at="2021-04-19T10:40:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchingApp -->
+        <test-method status="PASS" signature="tC_FCA_7_Validate_CART_Page()[pri:0, instance:com.practice.TC_FCA_7_Validate_CART_Page@5e3d57c7]" name="tC_FCA_7_Validate_CART_Page" duration-ms="384554" started-at="2021-04-19T10:40:17Z" finished-at="2021-04-19T10:46:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tC_FCA_7_Validate_CART_Page -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.practice.TC_FCA_7_Validate_CART_Page@5e3d57c7]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-04-19T10:40:17Z" finished-at="2021-04-19T10:40:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.practice.TC_FCA_7_Validate_CART_Page.tC_FCA_7_Validate_CART_Page() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.practice.TC_FCA_7_Validate_CART_Page@5e3d57c7]" name="afterMethod" is-config="true" duration-ms="3112" started-at="2021-04-19T10:46:41Z" finished-at="2021-04-19T10:46:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tC_FCA_7_Validate_CART_Page status=SUCCESS method=TC_FCA_7_Validate_CART_Page.tC_FCA_7_Validate_CART_Page()[pri:0, instance:com.practice.TC_FCA_7_Validate_CART_Page@5e3d57c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.practice.TC_FCA_7_Validate_CART_Page@5e3d57c7]" name="endReport" is-config="true" duration-ms="1387" started-at="2021-04-19T10:46:45Z" finished-at="2021-04-19T10:46:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.practice.TC_FCA_7_Validate_CART_Page -->
+    </test> <!-- VALIDATE THE CART PAGE -->
+  </suite> <!-- END TO END TESTING !!!! -->
+</testng-results>

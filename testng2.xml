@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="FUNCTIONAL TEST">
+  <test thread-count="5" name="FALCON APP">
+    <classes>
+      <class name="com.practice.TC_FCA_1_Validate_Launching_Splash_Screen"/>
+      <class name="com.practice.TC_FCA_3_Validate_Dashboard_Attributes_values" />
+      <class name="com.practice.TC_FCA_4_Validate_Search_List_Add_Product_to_Cart" />
+      <class name="com.practice.TC_FCA_5_Validate_Individual_Product_Page" />
+     
+    </classes>
+  </test> <!-- FALCON APP -->
+</suite> <!-- FUNCTIONAL TEST -->

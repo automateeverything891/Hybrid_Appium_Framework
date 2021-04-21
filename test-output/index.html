@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-END_TO_END_TESTING_!!!!">
+              <span class="suite-name border-failed">END TO END TESTING !!!!</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-END_TO_END_TESTING_!!!!">
+                    <span>D:\Tot\AppiumTestNGHybridFramework\testNgSample1.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-END_TO_END_TESTING_!!!!">
+                    <span class="test-stats">7 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-END_TO_END_TESTING_!!!!">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-END_TO_END_TESTING_!!!!">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-END_TO_END_TESTING_!!!!">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-END_TO_END_TESTING_!!!!">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-END_TO_END_TESTING_!!!!">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">7 methods, 1 failed,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-END_TO_END_TESTING_!!!!" class="hide-methods failed suite-END_TO_END_TESTING_!!!!"> (hide)</a> <!-- hide-methods failed suite-END_TO_END_TESTING_!!!! -->
+                      <a href="#" panel-name="suite-END_TO_END_TESTING_!!!!" class="show-methods failed suite-END_TO_END_TESTING_!!!!"> (show)</a> <!-- show-methods failed suite-END_TO_END_TESTING_!!!! -->
+                    </span>
+                    <div class="method-list-content failed suite-END_TO_END_TESTING_!!!!">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-END_TO_END_TESTING_!!!!" title="com.practice.TC_FCA_6_Validate_Create_Subscription_Page" hash-for-method="tC_FCA_6_Validate_Create_Subscription_Page">tC_FCA_6_Validate_Create_Subscription_Page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-END_TO_END_TESTING_!!!! -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-END_TO_END_TESTING_!!!!" class="hide-methods passed suite-END_TO_END_TESTING_!!!!"> (hide)</a> <!-- hide-methods passed suite-END_TO_END_TESTING_!!!! -->
+                      <a href="#" panel-name="suite-END_TO_END_TESTING_!!!!" class="show-methods passed suite-END_TO_END_TESTING_!!!!"> (show)</a> <!-- show-methods passed suite-END_TO_END_TESTING_!!!! -->
+                    </span>
+                    <div class="method-list-content passed suite-END_TO_END_TESTING_!!!!">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-END_TO_END_TESTING_!!!!" title="com.practice.TC_FCA_1_Validate_Launching_Splash_Screen" hash-for-method="tC_FCA_1_Validate_Launching_Splash_Screen">tC_FCA_1_Validate_Launching_Splash_Screen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-END_TO_END_TESTING_!!!!" title="com.practice.TC_FCA_2_Validate_FlashScreen_Text_and_Image" hash-for-method="tC_FCA_2_Validate_FlashScreen_Text_and_Image">tC_FCA_2_Validate_FlashScreen_Text_and_Image</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-END_TO_END_TESTING_!!!!" title="com.practice.TC_FCA_3_Validate_Dashboard_Attributes_values" hash-for-method="tC_FCA_3_Validate_Dashboard_Attributes_values">tC_FCA_3_Validate_Dashboard_Attributes_values</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-END_TO_END_TESTING_!!!!" title="com.practice.TC_FCA_4_Validate_Search_List_Add_Product_to_Cart" hash-for-method="tC_FCA_4_Validate_Search_List_Add_Product_to_Cart">tC_FCA_4_Validate_Search_List_Add_Product_to_Cart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-END_TO_END_TESTING_!!!!" title="com.practice.TC_FCA_5_Validate_Individual_Product_Page" hash-for-method="tC_FCA_5_Validate_Individual_Product_Page">tC_FCA_5_Validate_Individual_Product_Page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-END_TO_END_TESTING_!!!!" title="com.practice.TC_FCA_7_Validate_CART_Page" hash-for-method="tC_FCA_7_Validate_CART_Page">tC_FCA_7_Validate_CART_Page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-END_TO_END_TESTING_!!!! -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-END_TO_END_TESTING_!!!!" class="panel END_TO_END_TESTING_!!!!">
+          <div class="suite-END_TO_END_TESTING_!!!!-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.practice.TC_FCA_6_Validate_Create_Subscription_Page</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tC_FCA_6_Validate_Create_Subscription_Page">
+                  </a> <!-- tC_FCA_6_Validate_Create_Subscription_Page -->
+                  <span class="method-name">tC_FCA_6_Validate_Create_Subscription_Page</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at com.utils.Keywords.waitForElementPresent(Keywords.java:763)
+	at com.utils.Keywords.executeKeywords(Keywords.java:209)
+	at com.practice.TC_FCA_6_Validate_Create_Subscription_Page.tC_FCA_6_Validate_Create_Subscription_Page(TC_FCA_6_Validate_Create_Subscription_Page.java:26)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-END_TO_END_TESTING_!!!!-class-failed -->
+          <div class="suite-END_TO_END_TESTING_!!!!-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.practice.TC_FCA_2_Validate_FlashScreen_Text_and_Image</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tC_FCA_2_Validate_FlashScreen_Text_and_Image">
+                  </a> <!-- tC_FCA_2_Validate_FlashScreen_Text_and_Image -->
+                  <span class="method-name">tC_FCA_2_Validate_FlashScreen_Text_and_Image</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-END_TO_END_TESTING_!!!!-class-passed -->
+          <div class="suite-END_TO_END_TESTING_!!!!-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.practice.TC_FCA_4_Validate_Search_List_Add_Product_to_Cart</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tC_FCA_4_Validate_Search_List_Add_Product_to_Cart">
+                  </a> <!-- tC_FCA_4_Validate_Search_List_Add_Product_to_Cart -->
+                  <span class="method-name">tC_FCA_4_Validate_Search_List_Add_Product_to_Cart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-END_TO_END_TESTING_!!!!-class-passed -->
+          <div class="suite-END_TO_END_TESTING_!!!!-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.practice.TC_FCA_3_Validate_Dashboard_Attributes_values</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tC_FCA_3_Validate_Dashboard_Attributes_values">
+                  </a> <!-- tC_FCA_3_Validate_Dashboard_Attributes_values -->
+                  <span class="method-name">tC_FCA_3_Validate_Dashboard_Attributes_values</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-END_TO_END_TESTING_!!!!-class-passed -->
+          <div class="suite-END_TO_END_TESTING_!!!!-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.practice.TC_FCA_7_Validate_CART_Page</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tC_FCA_7_Validate_CART_Page">
+                  </a> <!-- tC_FCA_7_Validate_CART_Page -->
+                  <span class="method-name">tC_FCA_7_Validate_CART_Page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-END_TO_END_TESTING_!!!!-class-passed -->
+          <div class="suite-END_TO_END_TESTING_!!!!-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.practice.TC_FCA_5_Validate_Individual_Product_Page</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tC_FCA_5_Validate_Individual_Product_Page">
+                  </a> <!-- tC_FCA_5_Validate_Individual_Product_Page -->
+                  <span class="method-name">tC_FCA_5_Validate_Individual_Product_Page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-END_TO_END_TESTING_!!!!-class-passed -->
+          <div class="suite-END_TO_END_TESTING_!!!!-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.practice.TC_FCA_1_Validate_Launching_Splash_Screen</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tC_FCA_1_Validate_Launching_Splash_Screen">
+                  </a> <!-- tC_FCA_1_Validate_Launching_Splash_Screen -->
+                  <span class="method-name">tC_FCA_1_Validate_Launching_Splash_Screen</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-END_TO_END_TESTING_!!!!-class-passed -->
+        </div> <!-- panel END_TO_END_TESTING_!!!! -->
+        <div panel-name="test-xml-END_TO_END_TESTING_!!!!" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Tot\AppiumTestNGHybridFramework\testNgSample1.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;END TO END TESTING !!!!&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;VALIDATE THE LAUNCHING TEXT AND SPLASH SCREEN&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.practice.TC_FCA_1_Validate_Launching_Splash_Screen&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- VALIDATE THE LAUNCHING TEXT AND SPLASH SCREEN --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;VALIDATE THE DASHBOARD ATTRIBUTES VALUES&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.practice.TC_FCA_3_Validate_Dashboard_Attributes_values&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- VALIDATE THE DASHBOARD ATTRIBUTES VALUES --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;VALIDATE THE FLASH SCREEN TEXT AND IMAGES &quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.practice.TC_FCA_2_Validate_FlashScreen_Text_and_Image&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- VALIDATE THE FLASH SCREEN TEXT AND IMAGES  --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;VALIDATE SEARCH LIST AND PRODUCT TO CART PAGE&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.practice.TC_FCA_4_Validate_Search_List_Add_Product_to_Cart&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- VALIDATE SEARCH LIST AND PRODUCT TO CART PAGE --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;VALIDATE INDIVIDUAL PRODUCT PAGE&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.practice.TC_FCA_5_Validate_Individual_Product_Page&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- VALIDATE INDIVIDUAL PRODUCT PAGE --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;VALIDATE THE CREATE SUBSCRIPTION PAGE&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.practice.TC_FCA_6_Validate_Create_Subscription_Page&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- VALIDATE THE CREATE SUBSCRIPTION PAGE --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;VALIDATE THE CART PAGE&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.practice.TC_FCA_7_Validate_CART_Page&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- VALIDATE THE CART PAGE --&gt;
+&lt;/suite&gt; &lt;!-- END TO END TESTING !!!! --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-END_TO_END_TESTING_!!!!" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for END TO END TESTING !!!!</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">VALIDATE THE LAUNCHING TEXT AND SPLASH SCREEN (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">VALIDATE THE DASHBOARD ATTRIBUTES VALUES (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">VALIDATE THE FLASH SCREEN TEXT AND IMAGES  (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">VALIDATE SEARCH LIST AND PRODUCT TO CART PAGE (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">VALIDATE INDIVIDUAL PRODUCT PAGE (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">VALIDATE THE CREATE SUBSCRIPTION PAGE (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">VALIDATE THE CART PAGE (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-END_TO_END_TESTING_!!!!" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for END TO END TESTING !!!!</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-END_TO_END_TESTING_!!!!" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for END TO END TESTING !!!!</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_END_TO_END_TESTING_!!!!');
+function tableData_END_TO_END_TESTING_!!!!() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(7);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'tC_FCA_6_Validate_Create_Subscription_Page')
+data.setCell(0, 2, 'com.practice.TC_FCA_6_Validate_Create_Subscription_Page')
+data.setCell(0, 3, 1028416);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'tC_FCA_3_Validate_Dashboard_Attributes_values')
+data.setCell(1, 2, 'com.practice.TC_FCA_3_Validate_Dashboard_Attributes_values')
+data.setCell(1, 3, 679570);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'tC_FCA_7_Validate_CART_Page')
+data.setCell(2, 2, 'com.practice.TC_FCA_7_Validate_CART_Page')
+data.setCell(2, 3, 384554);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'tC_FCA_5_Validate_Individual_Product_Page')
+data.setCell(3, 2, 'com.practice.TC_FCA_5_Validate_Individual_Product_Page')
+data.setCell(3, 3, 290566);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'tC_FCA_4_Validate_Search_List_Add_Product_to_Cart')
+data.setCell(4, 2, 'com.practice.TC_FCA_4_Validate_Search_List_Add_Product_to_Cart')
+data.setCell(4, 3, 256271);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'tC_FCA_2_Validate_FlashScreen_Text_and_Image')
+data.setCell(5, 2, 'com.practice.TC_FCA_2_Validate_FlashScreen_Text_and_Image')
+data.setCell(5, 3, 119817);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'tC_FCA_1_Validate_Launching_Splash_Screen')
+data.setCell(6, 2, 'com.practice.TC_FCA_1_Validate_Launching_Splash_Screen')
+data.setCell(6, 3, 60442);
+window.suiteTableData['END_TO_END_TESTING_!!!!']= { tableData: data, tableDiv: 'times-div-END_TO_END_TESTING_!!!!'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 46 minutes</span>
+              <div id="times-div-END_TO_END_TESTING_!!!!">
+              </div> <!-- times-div-END_TO_END_TESTING_!!!! -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-END_TO_END_TESTING_!!!!" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for END TO END TESTING !!!!</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-END_TO_END_TESTING_!!!!" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-END_TO_END_TESTING_!!!!" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.practice.TC_FCA_7_Validate_CART_Page</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">startAppium</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.practice.TC_FCA_1_Validate_Launching_Splash_Screen</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">lunchingApp</span>
+                <span class="method-start">44768 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.practice.TC_FCA_1_Validate_Launching_Splash_Screen.tC_FCA_1_Validate_Launching_Splas...)</span>
+                <span class="method-start">121990 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tC_FCA_1_Validate_Launching_Splash_Screen</span>
+                <span class="method-start">121995 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=tC_FCA_1_Validate_Launching_Splash_Screen status=SUCCESS method=TC_FCA_1_Validate_L...)</span>
+                <span class="method-start">182456 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.practice.TC_FCA_3_Validate_Dashboard_Attributes_values</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">lunchingApp</span>
+                <span class="method-start">186873 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.practice.TC_FCA_3_Validate_Dashboard_Attributes_values.tC_FCA_3_Validate_Dashboard_A...)</span>
+                <span class="method-start">237781 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tC_FCA_3_Validate_Dashboard_Attributes_values</span>
+                <span class="method-start">237782 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=tC_FCA_3_Validate_Dashboard_Attributes_values status=SUCCESS method=TC_FCA_3_Valida...)</span>
+                <span class="method-start">917354 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.practice.TC_FCA_2_Validate_FlashScreen_Text_and_Image</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">lunchingApp</span>
+                <span class="method-start">923061 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.practice.TC_FCA_2_Validate_FlashScreen_Text_and_Image.tC_FCA_2_Validate_FlashScreen_...)</span>
+                <span class="method-start">968815 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tC_FCA_2_Validate_FlashScreen_Text_and_Image</span>
+                <span class="method-start">968815 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=tC_FCA_2_Validate_FlashScreen_Text_and_Image status=SUCCESS method=TC_FCA_2_Validat...)</span>
+                <span class="method-start">1088633 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.practice.TC_FCA_4_Validate_Search_List_Add_Product_to_Cart</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">lunchingApp</span>
+                <span class="method-start">1092631 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.practice.TC_FCA_4_Validate_Search_List_Add_Product_to_Cart.tC_FCA_4_Validate_Search_...)</span>
+                <span class="method-start">1135678 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tC_FCA_4_Validate_Search_List_Add_Product_to_Cart</span>
+                <span class="method-start">1135679 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=tC_FCA_4_Validate_Search_List_Add_Product_to_Cart status=SUCCESS method=TC_FCA_4_Va...)</span>
+                <span class="method-start">1391952 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.practice.TC_FCA_5_Validate_Individual_Product_Page</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">lunchingApp</span>
+                <span class="method-start">1394579 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.practice.TC_FCA_5_Validate_Individual_Product_Page.tC_FCA_5_Validate_Individual_Prod...)</span>
+                <span class="method-start">1438468 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tC_FCA_5_Validate_Individual_Product_Page</span>
+                <span class="method-start">1438468 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=tC_FCA_5_Validate_Individual_Product_Page status=SUCCESS method=TC_FCA_5_Validate_I...)</span>
+                <span class="method-start">1729036 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.practice.TC_FCA_6_Validate_Create_Subscription_Page</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">lunchingApp</span>
+                <span class="method-start">1731638 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.practice.TC_FCA_6_Validate_Create_Subscription_Page.tC_FCA_6_Validate_Create_Subscri...)</span>
+                <span class="method-start">1777366 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tC_FCA_6_Validate_Create_Subscription_Page</span>
+                <span class="method-start">1777366 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=tC_FCA_6_Validate_Create_Subscription_Page status=FAILURE method=TC_FCA_6_Validate_...)</span>
+                <span class="method-start">2805825 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.practice.TC_FCA_7_Validate_CART_Page</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">lunchingApp</span>
+                <span class="method-start">2812054 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.practice.TC_FCA_7_Validate_CART_Page.tC_FCA_7_Validate_CART_Page() throws java.lang....)</span>
+                <span class="method-start">2862556 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tC_FCA_7_Validate_CART_Page</span>
+                <span class="method-start">2862556 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=tC_FCA_7_Validate_CART_Page status=SUCCESS method=TC_FCA_7_Validate_CART_Page.tC_FC...)</span>
+                <span class="method-start">3247111 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">endReport</span>
+                <span class="method-start">3250328 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

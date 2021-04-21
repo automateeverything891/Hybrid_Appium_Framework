@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FUNCTIONAL TEST]">
+  <test name="FALCON APP(failed)">
+    <classes>
+      <class name="com.practice.TC_FCA_3_Validate_Dashboard_Attributes_values">
+        <methods>
+          <include name="tC_FCA_3_Validate_Dashboard_Attributes_values"/>
+        </methods>
+      </class> <!-- com.practice.TC_FCA_3_Validate_Dashboard_Attributes_values -->
+      <class name="com.practice.TC_FCA_4_Validate_Search_List_Add_Product_to_Cart">
+        <methods>
+          <include name="tC_FCA_4_Validate_Search_List_Add_Product_to_Cart"/>
+        </methods>
+      </class> <!-- com.practice.TC_FCA_4_Validate_Search_List_Add_Product_to_Cart -->
+      <class name="com.practice.TC_FCA_1_Validate_Launching_Splash_Screen">
+        <methods>
+          <include name="tC_FCA_1_Validate_Launching_Splash_Screen"/>
+          <include name="lunchingApp"/>
+        </methods>
+      </class> <!-- com.practice.TC_FCA_1_Validate_Launching_Splash_Screen -->
+      <class name="com.practice.TC_FCA_5_Validate_Individual_Product_Page">
+        <methods>
+          <include name="tC_FCA_5_Validate_Individual_Product_Page"/>
+        </methods>
+      </class> <!-- com.practice.TC_FCA_5_Validate_Individual_Product_Page -->
+    </classes>
+  </test> <!-- FALCON APP(failed) -->
+</suite> <!-- Failed suite [FUNCTIONAL TEST] -->

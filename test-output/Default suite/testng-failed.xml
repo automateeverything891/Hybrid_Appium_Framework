@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.practice.TC_FCA_6_Validate_Create_Subscription_Page">
+        <methods>
+          <include name="endReport"/>
+          <include name="tC_FCA_6_Validate_Create_Subscription_Page"/>
+          <include name="closeApp"/>
+          <include name="afterMethod"/>
+          <include name="lunchingApp"/>
+          <include name="beforeMethod"/>
+          <include name="startAppium"/>
+        </methods>
+      </class> <!-- com.practice.TC_FCA_6_Validate_Create_Subscription_Page -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

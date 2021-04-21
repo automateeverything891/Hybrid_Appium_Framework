@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="END TO END TESTING !!!!">
+   <!-- <test thread-count="5" name="VALIDATE SELECTED CATEGORY OPENED AND VERIFY THAT COUNT">
+    <classes>
+      <class name="com.testcases.TC_005_Validate_Selected_Category_Name"/>
+    </classes>
+  </test> --> <!-- Search Listing Page-  com.booking -->
+    <test thread-count="5" name="VALIDATE THE SEARCH LISTING PAGE AND VERIFY THE COUNT ">
+    <classes>
+      <class name="com.testcases.TC_011_Validate_SearchResultCount"/>
+    </classes>
+  </test> <!-- Search Listing Page-  com.booking -->
+   <test thread-count="5" name="VERIFY THE DASHBOARD PAGE ALL ATTRIBUTES ">
+    <classes>
+      <class name="com.testcases.TC_013_Validate_DashBoard_Page_Attributes"/>
+    </classes>
+  </test>  <!-- Search Listing Page-  com.booking -->
+    <test thread-count="5" name="VALIDATE THE SUBSCRIPTION AND CART PAGE PRICE AND COUNT">
+    <classes>
+      <class name="com.testcases.TC_010_Validate_Subscription_Page"/>
+    </classes>
+  </test> <!-- Search Listing Page-  com.booking -->
+  <test thread-count="5"
+		name="VALIDATING ARRIVING TOMMARROW SECTION WITH ORDER CALENDER PAGE">
+		<classes>
+			<class
+				name="com.testcases.TC_014_Navigate_Arriving_Tom_to_Order_Calender" />
+		</classes>
+	</test>
+	<test thread-count="5"
+		name="VALIDATE LOGIN OPTION IN BEFORE LOGIN">
+		<classes>
+			<class
+				name="com.testcases.TC_017_Validate_More_options_before_Login" />
+		</classes>
+	</test>  <!-- Search Listing Page- com.booking -->
+   
+</suite> <!-- Regression Testing- com.booking.startup.HomeActivity -->

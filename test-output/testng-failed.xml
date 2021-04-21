@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [END TO END TESTING !!!!]">
+  <test name="VALIDATE THE CREATE SUBSCRIPTION PAGE(failed)">
+    <classes>
+      <class name="com.practice.TC_FCA_2_Validate_FlashScreen_Text_and_Image">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="lunchingApp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.practice.TC_FCA_2_Validate_FlashScreen_Text_and_Image -->
+      <class name="com.practice.TC_FCA_4_Validate_Search_List_Add_Product_to_Cart">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="lunchingApp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.practice.TC_FCA_4_Validate_Search_List_Add_Product_to_Cart -->
+      <class name="com.practice.TC_FCA_6_Validate_Create_Subscription_Page">
+        <methods>
+          <include name="tC_FCA_6_Validate_Create_Subscription_Page"/>
+          <include name="afterMethod"/>
+          <include name="lunchingApp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.practice.TC_FCA_6_Validate_Create_Subscription_Page -->
+      <class name="com.practice.TC_FCA_3_Validate_Dashboard_Attributes_values">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="lunchingApp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.practice.TC_FCA_3_Validate_Dashboard_Attributes_values -->
+      <class name="com.practice.TC_FCA_7_Validate_CART_Page">
+        <methods>
+          <include name="endReport"/>
+          <include name="afterMethod"/>
+          <include name="lunchingApp"/>
+          <include name="beforeMethod"/>
+          <include name="startAppium"/>
+        </methods>
+      </class> <!-- com.practice.TC_FCA_7_Validate_CART_Page -->
+      <class name="com.practice.TC_FCA_5_Validate_Individual_Product_Page">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="lunchingApp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.practice.TC_FCA_5_Validate_Individual_Product_Page -->
+      <class name="com.practice.TC_FCA_1_Validate_Launching_Splash_Screen">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="lunchingApp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.practice.TC_FCA_1_Validate_Launching_Splash_Screen -->
+    </classes>
+  </test> <!-- VALIDATE THE CREATE SUBSCRIPTION PAGE(failed) -->
+</suite> <!-- Failed suite [END TO END TESTING !!!!] -->
