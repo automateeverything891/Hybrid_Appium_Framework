@@ -119,8 +119,8 @@
 				<version>2.18.1</version>
 				<configuration>
 					<suiteXmlFiles>
-						<!-- <suiteXmlFile>testng.xml</suiteXmlFile> mvn test -Dsurefire.suiteXmlFiles=End2EndTestNg.xml -->
-						<suiteXmlFile>testng.xml</suiteXmlFile>
+						<!-- <suiteXmlFile>testNgSample1.xml</suiteXmlFile> mvn test -Dsurefire.suiteXmlFiles=End2EndTestNg.xml -->
+						<suiteXmlFile>testNgSample1.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
